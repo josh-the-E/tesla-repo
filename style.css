@@ -1,0 +1,132 @@
+
+
+.bod{
+   object-position: 100% 100%;
+    object-fit: fill;
+    background-image: url("download.gif");
+    
+} 
+
+
+
+.visbar {
+    flex-basis: 100%;
+}
+
+
+.topbar {
+   display: flex;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: black;    
+color: aliceblue;
+padding-top: 20px;
+text-align: center;
+padding-bottom: 20px;
+width: 100%;
+
+
+}
+
+
+
+
+
+.leftbar {
+    flex: auto;
+padding-top: 10px;
+box-sizing: border-box;
+padding-top: 20px;
+font-size: 20px;
+
+
+}
+
+.centerbar {
+    flex: auto;
+    padding-top: 20px;
+    font-size: 20px;
+
+
+}
+
+
+.rightbar {
+    flex: auto;
+    padding-top: 20px;
+    font-size: 20px;    
+}
+
+
+.background{
+    
+    color: rgb(0, 0, 0);
+}
+
+
+.name {
+    text-align: center;
+    width: 100%;
+    
+background-color: rgba(128, 128, 128, 0.701);
+    
+    
+}
+
+#objectname {
+    padding-top: 20px;
+    font-size: 35px;
+    
+}
+
+#objectdes {
+    font-size: 20px;
+}
+
+
+
+.foot {
+    text-align: center;
+margin-top: 70px;
+background-color: black;
+color: white;
+padding-top: 30px;
+padding-bottom: 30px;
+font-size: 20px;
+width: 100%;
+
+}
+
+
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;	
+    margin-top: 300px;
+    cursor: pointer;
+
+position: relative;
+    box-sizing:content-box;
+width: 100px;
+margin-left: 30px;
+margin-right: 30px;
+  }
+
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.844);
+   padding: 16px 33px;
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
+
+.invsbar {
+    width: 100%;
+    text-align: center;
+}
